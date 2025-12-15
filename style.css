@@ -1,0 +1,178 @@
+body {
+  background-color: #edc9af;
+  margin-bottom: 50px;
+}
+
+header {
+  color: #dd5858;
+  background: #edc9af;
+  padding: 40px 60px 40px 60px;
+  margin: 0 130px 0 120px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+h2 {
+  color: #dd5858;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+blockquote {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 60%;
+  margin: 50px auto;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #dd5858;
+  line-height: 1.6;
+  position: relative;
+  background: #f7e7ce;
+}
+
+blockquote::before {
+  font-family: "Roboto", sans-serif; 
+  content: "\201C";
+  color: #dd5858;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+
+blockquote span {
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+img {
+  width: 190px;
+  height: 270px;
+}
+
+figure {
+  border: thin #000000 solid;
+  display: inline-block;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+figcaption {
+  background-color: #dd5858;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+}
+
+footer {
+  position: fixed;
+  height: 22px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #dd5858;
+  color: #000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.container-sm {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 110px;
+}
+
+.soundtrack {
+  border: thin #000000 solid;
+  display: inline-block;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.soundtrack-description {
+  font-size: 11px;
+  width: 295px;
+}
+
+.soundtrack-container {
+  margin-left: 200px;
+}
+
+.soundtrack-image {
+  width: 300px;
+  height: 300px;
+}
+
+.controls {
+  background: #dd5858;
+}
+
+.wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+hr {
+width: 900px;
+border: 1px solid #dd5858;
+}
+
+
+ol {
+  padding: 1.5rem 1.5rem 1.5rem 4em;
+  border: 0.3rem solid #dd5858;
+  columns: 10rem;
+  column-gap: 5rem;
+  border-radius: 0.5rem;
+}
+
+ol > * + * {
+  margin-top: 1rem;
+}
+
+
+li {
+  break-inside: avoid;
+}
+
+::marker {
+  content: counters(list-item, "") ": ";
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #dd5858;
+}
+
+li span {
+  display: block;
+}
+
+li span:first-child {
+  font-size: 1.5em;
+}
+
+li img {
+  width: 11px;
+  height: 11px;
+  line-height: 0;
+  margin-bottom: 0;
+}
